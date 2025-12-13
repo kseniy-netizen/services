@@ -13,7 +13,7 @@ export default {
         <div class="favorites-panel">
 
             <div class="panel-header">
-                <h1>Избранное</h1>
+                <h2>Избранное</h2>
                 <span class="header-icon">🖤</span>
             </div>
 
