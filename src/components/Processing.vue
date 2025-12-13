@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'PrivacyPolicy',
+    name: 'processing',
     data() {
         return {
             // Компонент данных может быть использован для динамического контента

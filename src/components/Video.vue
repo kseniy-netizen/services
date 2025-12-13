@@ -10,7 +10,7 @@ import companyPoster from '@/assets/images/posters/company-party.png'
 import balletPoster from '@/assets/images/posters/real-estate.png'
 
 export default {
-    name: 'VideoGallery',
+    name: 'Video',
     data() {
         return {
             videoRefs: [],

@@ -5,14 +5,11 @@ export default {};
 <template>
     <section class="pricing">
 
-
         <section class="specialists-section" id="#ta">
             <div class="divider"></div>
             <h2 class="section-title">ТАРИФНЫЙ ПЛАН</h2>
             <div class="divider"></div>
         </section>
-
-
 
         <!-- ФОТОГРАФ -->
         <h2 class="block-title">ФОТОГРАФ</h2>
@@ -48,7 +45,7 @@ export default {};
                     <ul>
                         <li>6 Часов Фотосъёмки</li>
                         <li>+ Расширенная Цветокоррекция, Ретушь</li>
-                        <li>Готовность Фото: 10 Дней</li>
+                        <li>+ Готовность Фото: 10 Дней</li>
                     </ul>
 
                     <button class="select-btn-1">Выбрать</button>
@@ -67,7 +64,7 @@ export default {};
                     <ul>
                         <li>9 Часов Фотосъёмки</li>
                         <li>+ Художественная Ретушь Цветокоррекция</li>
-                        <li>Готовность Фото: 7 Дней</li>
+                        <li>+ Готовность Фото: 7 Дней</li>
                     </ul>
 
                     <button class="select-btn-1">Выбрать</button>
@@ -364,7 +361,6 @@ ul li {
 }
 
 ul li::before {
-    content: "•";
     position: absolute;
     left: -5px;
     color: white;
@@ -380,7 +376,7 @@ ul li::before {
     cursor: pointer;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 16px;
     border: none;
     font-size: 15px;
     transition: all 0.3s ease;
