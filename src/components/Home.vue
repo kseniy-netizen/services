@@ -52,7 +52,7 @@ export default {
     <div class="home-page">
         <!-- Hero Section с изображением и текстом -->
         <section class="hero-section">
-            <img src="../assets/images/girl.png" alt="Девушка" class="hero-image" />
+            <img src="../assets/images/girl.webp" alt="Девушка" class="hero-image" />
             <div class="hero-logo">
                 <h1 class="logo-line-1">CAPTURE</h1>
                 <h1 class="logo-line-2">STUDIO</h1>
