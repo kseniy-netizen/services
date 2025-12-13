@@ -320,12 +320,12 @@ width: 280px;
 
 @font-face {
     font-family: "Cormorant-BoldItalic";
-    src: url(./src/assets/fonts/Cormorant-BoldItalic.ttf);
+    src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     margin: 0;
