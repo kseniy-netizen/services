@@ -54,12 +54,13 @@ export default {
                 </div>
                 <div class="social-icons">
                     <a href="https://chat.whatsapp.com/Iky5zxzz5Ed8fkih52vX1C?mode=hqrt1" class="social-icon" 
-                        ria-label="WhatsApp"><img src="../assets/icons/foot/Whatsapp.svg"
+                        aria-label="WhatsApp"><img src="../assets/icons/foot/Whatsapp.svg"
                             alt="ВатСап"></a>
                     <a href="https://t.me/capture_studio_of" class="social-icon" aria-label="Telegram">
                         <img src="../assets/icons/foot/Telegram.svg"
                             alt="Телеграм"></a>
-                    <a href="https://vk.ru/club234605221" class="social-icon" aria-label="VKontakte"><img src="../assets/icons/foot/VK.svg"
+                    <a href="https://vk.ru/club234605221" class="social-icon" aria-label="VKontakte">
+                        <img src="../assets/icons/foot/VK.svg"
                             alt="ВК"></a>
                 </div>
             </div>
