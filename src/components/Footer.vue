@@ -69,12 +69,10 @@ export default {
 
 <style scoped>
 
-
 @font-face {
     font-family: "ProtestRevolution-Regular";
     src: url('/src/assets/fonts/ProtestRevolution-Regular.ttf');
 }
-
 
 .app-footer {
     margin-top: 65px;

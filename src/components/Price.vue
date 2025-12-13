@@ -439,7 +439,7 @@ ul li::before {
 
 @font-face {
     font-family: "Cormorant-BoldItalic";
-    src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
+    src: url('/src/assets/fonts/Cormorant-BoldItalic.ttf');
 }
 
 </style>
