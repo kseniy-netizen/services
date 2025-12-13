@@ -53,12 +53,14 @@ export default {
                     <a href="mailto:CAPTURESTUDIO@GMAIL.COM">CAPTURESTUDIO@GMAIL.COM</a>
                 </div>
                 <div class="social-icons">
-                    <a href="#" class="social-icon" aria-label="WhatsApp"><img src="../assets/icons/foot/Whatsapp.svg"
-                            alt="ВатСап"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="social-icon" aria-label="Telegram"><img src="../assets/icons/foot/Telegram.svg"
-                            alt="Телеграм"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://chat.whatsapp.com/Iky5zxzz5Ed8fkih52vX1C?mode=hqrt1" class="social-icon" 
+                        ria-label="WhatsApp"><img src="../assets/icons/foot/Whatsapp.svg"
+                            alt="ВатСап"></a>
+                    <a href="t.me/capture_studio_of" class="social-icon" aria-label="Telegram">
+                        <img src="../assets/icons/foot/Telegram.svg"
+                            alt="Телеграм"></a>
                     <a href="#" class="social-icon" aria-label="VKontakte"><img src="../assets/icons/foot/VK.svg"
-                            alt="ВК"><i class="fab fa-vk"></i></a>
+                            alt="ВК"></a>
                 </div>
             </div>
         </div>
