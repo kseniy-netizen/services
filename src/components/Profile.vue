@@ -1,4 +1,3 @@
-
 <script>
 export default {
     name: 'Profile',
@@ -21,7 +20,7 @@ export default {
             <div class="item-list">
 
                 <div class="item-card" id="fav-1">
-                    <img src="../assets/images/photo-5.png" alt="" class="item-thumbnail">
+                    <img src="../assets/images/photo-5.png" alt="Выпускной" class="item-thumbnail">
 
                     <div class="item-details">
                         <span class="item-main-text">ВЫПУСКНОЙ</span>
@@ -32,7 +31,7 @@ export default {
                 </div>
 
                 <div class="item-card" id="fav-2">
-                    <img src="../assets/images/price/photo.png" alt="" class="item-thumbnail">
+                    <img src="../assets/images/price/photo.png" alt="Фотограф" class="item-thumbnail">
 
                     <div class="item-details">
                         <span class="item-main-text">Фотограф</span>

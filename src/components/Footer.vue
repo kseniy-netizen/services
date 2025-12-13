@@ -44,7 +44,7 @@ export default {
             <div class="footer-section contacts-info">
                 <h3>КОНТАКТЫ</h3>
                 <div class="contact-item">
-                    <i class="fa-phone"><img src="../assets/icons/foot/Phone.svg" alt=""></i>
+                    <i class="fa-phone"><img src="../assets/icons/foot/Phone.svg" alt="номер"></i>
                     <a href="tel:+79999999999">+7 (999)
                         999-99-99</a>
                 </div>
@@ -56,7 +56,7 @@ export default {
                     <a href="#" class="social-icon" aria-label="WhatsApp"><img src="../assets/icons/foot/Whatsapp.svg"
                             alt="ВатСап"><i class="fab fa-whatsapp"></i></a>
                     <a href="#" class="social-icon" aria-label="Telegram"><img src="../assets/icons/foot/Telegram.svg"
-                            alt="ВатСап"><i class="fab fa-telegram-plane"></i></a>
+                            alt="Телеграм"><i class="fab fa-telegram-plane"></i></a>
                     <a href="#" class="social-icon" aria-label="VKontakte"><img src="../assets/icons/foot/VK.svg"
                             alt="ВК"><i class="fab fa-vk"></i></a>
                 </div>
@@ -96,7 +96,6 @@ export default {
     margin: 0 auto;
     /* Центрируем футер */
     padding: 10px 90px;
-    /* Горизонтальные отступы для адаптивности */
     gap: 60px;
     /* Отступ между колонками */
 }

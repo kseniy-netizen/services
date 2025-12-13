@@ -17,9 +17,6 @@ export default {
 // }).mount('#app');
 
 
-    
-
-
 // createApp({
 //     data() {
 //         return {
