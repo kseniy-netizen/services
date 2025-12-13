@@ -1,11 +1,7 @@
 <script>
-    import girlImage from '@/assets/images/girl.webp'
 export default {
     name: 'App'
 }
-
-
-
 // Вставляем это для этого: <script setup> — это синтаксический сахар для Composition API в Vue 3.
 // Он позволяет писать логику компонента прямо в <script> без необходимости возвращать свойства.
 // Для простых статических страниц, как эта, может быть пустым.
@@ -56,7 +52,7 @@ export default {
     <div class="home-page">
         <!-- Hero Section с изображением и текстом -->
         <section class="hero-section">
-            <img :src="girlImage" alt="Девушка" class="hero-image"/>
+            <img src="../assets/images/girl.png" alt="Девушка" class="hero-image" />
             <div class="hero-logo">
                 <h1 class="logo-line-1">CAPTURE</h1>
                 <h1 class="logo-line-2">STUDIO</h1>
