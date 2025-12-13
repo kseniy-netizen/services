@@ -106,7 +106,7 @@ export default {
                     <!-- Специалист 1: ДЭРРИЛ САЙПС -->
                     <div class="s-card">
                         <div class="s-image-frame">
-                            <img src="../assets/images/specialist-1.png" alt="ДЭРРИЛ САЙПС" class="s-image" />
+                            <img src="/assets/images/specialist-1.png" alt="ДЭРРИЛ САЙПС" class="s-image" />
                         </div>
                         <h3 class="s-name">ДЭРРИЛ САЙПС</h3>
                         <p class="s-tagline">ЗАХВАТЫВАЮЩИЕ ФОТОГРАФИИ И ДИНАМИЧНЫЕ ВИДЕО ДЛЯ ВАШИХ САМЫХ ЯРКИХ
@@ -120,7 +120,7 @@ export default {
                     <!-- Специалист 2: РУБИ СПАРК -->
                     <div class="s-card">
                         <div class="s-image-frame">
-                            <img src="../assets/images/specialist-2.png" alt="РУБИ СПАРК" class="s-image" />
+                            <img src="@/assets/images/specialist-2.png" alt="РУБИ СПАРК" class="s-image" />
                         </div>
                         <h3 class="s-name">РУБИ СПАРК</h3>
                         <p class="s-tagline">ПРОФЕССИОНАЛЬНОЕ ФОТО И ВИДЕО ДЛЯ ВАШЕГО БИЗНЕСА И НЕДВИЖИМОСТИ</p>
@@ -170,10 +170,10 @@ export default {
                             <img src="../assets/images/best-work-4.jpg" alt="Групповое фото людей">
                         </div>
                         <div class="grid-item item-5">
-                            <img src="../assets/images/best-work-5.jpg" alt="Торт на вечеринке">
+                            <img src="../assets/images/best-work-5.jpg" alt="День рождениe у девушки">
                         </div>
                         <div class="grid-item item-6">
-                            <img src="../assets/images/best-work-6.jpg" alt="Человек в синем свете">
+                            <img src="../assets/images/best-work-6.jpg" alt="Девушка на концерте">
                         </div>
                     </div>
                 </div>
