@@ -318,11 +318,6 @@ width: 280px;
     z-index: 2;
 }
 
-@font-face {
-    font-family: "Cormorant-BoldItalic";
-    src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
-}
-
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
@@ -440,4 +435,10 @@ ul li::before {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(138, 166, 195, 0.5);
 }
+
+@font-face {
+    font-family: "Cormorant-BoldItalic";
+    src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
+}
+
 </style>

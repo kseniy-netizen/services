@@ -272,8 +272,8 @@ export default {
 }
 
 @font-face {
-    font-family: "Cormorant-BoldItalic";
-    src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
+    font-family: "ProtestRevolution-Regular";
+    src: url(../src/assets/fonts/ProtestRevolution-Regular.ttf);
 }
 
 /* Адаптивность */

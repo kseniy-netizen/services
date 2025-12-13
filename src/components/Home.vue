@@ -242,8 +242,8 @@ export default {
 
 @font-face {
     font-family: "ProtestRevolution-Regular";
-    src: url('./src/fonts/ProtestRevolution-Regular.ttf');
-}
+    src: url(../src/assets/fonts/ProtestRevolution-Regular.ttf);
+} 
 
 .logo-line-1,
 .logo-line-2 {
