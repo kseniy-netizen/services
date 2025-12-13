@@ -270,10 +270,12 @@ export default {
 .mobile-btn:hover {
     background: rgba(255, 255, 255, 0.1);
 }
+
 @font-face {
     font-family: "Cormorant-BoldItalic";
     src: url('./src/assets/fonts/Cormorant-BoldItalic.ttf');
 }
+
 /* Адаптивность */
 @media (max-width: 768px) {
     .header-container {
