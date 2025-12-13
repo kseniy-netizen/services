@@ -178,8 +178,7 @@ export default {
                     </div>
                 </div>
 
-
-                </section>
+            </section>
 
         </main>
     </div>
@@ -267,154 +266,6 @@ export default {
     margin-top: 0.5rem;
 }
 
-/* Адаптивность для очень широких экранов */
-@media (min-width: 1920px) {
-    .hero-logo {
-        left: 15%;
-    }
-}
-
-/* Планшеты и маленькие ноутбуки */
-@media (max-width: 1024px) {
-    .hero-section {
-        height: 80vh;
-        max-height: 700px;
-    }
-
-    .hero-logo {
-        top: 30%;
-        /* Выше на планшетах */
-        left: 8%;
-        max-width: 60%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(2.5rem, 7vw, 4rem);
-    }
-
-    .logo-line-2 {
-        margin-left: 12px;
-        margin-top: 0.4rem;
-    }
-}
-
-/* Планшеты в портретной ориентации */
-@media (max-width: 768px) {
-    .hero-section {
-        height: 70vh;
-        max-height: 600px;
-        min-height: 400px;
-    }
-
-    .hero-logo {
-        top: 25%;
-        /* Выше на планшетах */
-        left: 7%;
-        max-width: 70%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(2rem, 9vw, 3.5rem);
-    }
-
-    .logo-line-2 {
-        margin-left: 10px;
-        margin-top: 0.3rem;
-    }
-}
-
-/* Мобильные телефоны */
-@media (max-width: 480px) {
-    .hero-section {
-        height: 60vh;
-        max-height: 500px;
-        min-height: 350px;
-    }
-
-    .hero-logo {
-        top: 20%;
-        /* Выше на телефонах */
-        left: 6%;
-        max-width: 80%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(1.8rem, 10vw, 3rem);
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-    }
-
-    .logo-line-2 {
-        margin-left: 8px;
-        margin-top: 0.2rem;
-    }
-}
-
-/* Очень маленькие телефоны */
-@media (max-width: 360px) {
-    .hero-section {
-        height: 55vh;
-        max-height: 450px;
-        min-height: 300px;
-    }
-
-    .hero-logo {
-        top: 15%;
-        /* Максимально вверх на очень маленьких */
-        left: 5%;
-        max-width: 85%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(1.5rem, 11vw, 2.5rem);
-    }
-
-    .logo-line-2 {
-        margin-left: 6px;
-    }
-}
-
-/* Ландшафтная ориентация на мобильных */
-@media (max-height: 500px) and (orientation: landscape) {
-    .hero-section {
-        height: 100vh;
-        min-height: 300px;
-    }
-
-    .hero-logo {
-        top: 20%;
-        left: 5%;
-        max-width: 60%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(2rem, 6vw, 3rem);
-    }
-}
-
-/* Если изображение девушки сильно смещено вправо */
-@media (min-width: 1400px) {
-    .hero-image {
-        object-position: 70% center;
-    }
-}
-
-/* Для очень маленьких высот экрана */
-@media (max-height: 400px) {
-    .hero-logo {
-        top: 15%;
-    }
-
-    .logo-line-1,
-    .logo-line-2 {
-        font-size: clamp(1.5rem, 5vw, 2.5rem);
-    }
-}
-
 .page-section {
     max-width: 960px;
     margin: 40px auto;
@@ -439,12 +290,12 @@ export default {
 .hero-text {
     font-size: 1.2rem;
     text-align: center;
-    max-width: 650px;
+    max-width: 656px;
     margin-left: auto;
     margin-right: auto;
 }
 .hero-text-t{
-    padding-top: 20px;
+    padding-top: 28px;
 }
 
 .hero-text img {
@@ -769,65 +620,152 @@ h2 {
     /* Линия будет располагаться под элементами галереи */
 }
 
+
+/* Адаптивность для очень широких экранов */
+@media (min-width: 1920px) {
+    .hero-logo {
+        left: 15%;
+    }
+}
+
+/* Планшеты и маленькие ноутбуки */
 @media (max-width: 1024px) {
-    .s-card {
-        flex: 1 1 calc(50% - 20px);
-        max-width: calc(50% - 20px);
+    .hero-section {
+        height: 80vh;
+        max-height: 700px;
+    }
+
+    .hero-logo {
+        top: 30%;
+        /* Выше на планшетах */
+        left: 8%;
+        max-width: 60%;
+    }
+
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(2.5rem, 7vw, 4rem);
+    }
+
+    .logo-line-2 {
+        margin-left: 12px;
+        margin-top: 0.4rem;
     }
 }
 
+/* Планшеты в портретной ориентации */
 @media (max-width: 768px) {
-    .s-section-wrapper {
-        padding: 15px;
+    .hero-section {
+        height: 70vh;
+        max-height: 600px;
+        min-height: 400px;
     }
 
-    .s-card {
-        flex: 1 1 100%;
-        max-width: 100%;
+    .hero-logo {
+        top: 25%;
+        /* Выше на планшетах */
+        left: 7%;
+        max-width: 70%;
     }
 
-    .s-section-title {
-        font-size: 1.8em;
-        margin-bottom: 30px;
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(2rem, 9vw, 3.5rem);
     }
 
-    .s-nav-tabs {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 25px;
-    }
-
-    .s-nav-button {
-        padding: 8px 15px;
-        font-size: 13px;
+    .logo-line-2 {
+        margin-left: 10px;
+        margin-top: 0.3rem;
     }
 }
 
-
-@media (max-width: 768px) {
-    .header .container {
-        flex-direction: column;
-        gap: 1rem;
+/* Мобильные телефоны */
+@media (max-width: 480px) {
+    .hero-section {
+        height: 60vh;
+        max-height: 500px;
+        min-height: 350px;
     }
 
-    .nav {
-        flex-wrap: wrap;
-        justify-content: center;
+    .hero-logo {
+        top: 20%;
+        /* Выше на телефонах */
+        left: 6%;
+        max-width: 80%;
     }
 
-    .hero-text {
-        font-size: 1rem;
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(1.8rem, 10vw, 3rem);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     }
 
-    .cta-buttons {
-        flex-direction: column;
-        align-items: center;
+    .logo-line-2 {
+        margin-left: 8px;
+        margin-top: 0.2rem;
+    }
+}
+
+/* Очень маленькие телефоны */
+@media (max-width: 360px) {
+    .hero-section {
+        height: 55vh;
+        max-height: 450px;
+        min-height: 300px;
     }
 
-    .cta-button {
-        width: 100%;
-        max-width: 300px;
+    .hero-logo {
+        top: 15%;
+        /* Максимально вверх на очень маленьких */
+        left: 5%;
+        max-width: 85%;
+    }
+
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(1.5rem, 11vw, 2.5rem);
+    }
+
+    .logo-line-2 {
+        margin-left: 6px;
+    }
+}
+
+/* Ландшафтная ориентация на мобильных */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero-section {
+        height: 100vh;
+        min-height: 300px;
+    }
+
+    .hero-logo {
+        top: 20%;
+        left: 5%;
+        max-width: 60%;
+    }
+
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(2rem, 6vw, 3rem);
+    }
+}
+
+/* Если изображение девушки сильно смещено вправо */
+@media (min-width: 1400px) {
+    .hero-image {
+        object-position: 70% center;
+    }
+}
+
+/* Для очень маленьких высот экрана */
+@media (max-height: 400px) {
+    .hero-logo {
+        top: 15%;
+    }
+
+    .logo-line-1,
+    .logo-line-2 {
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
     }
 }
 </style>
