@@ -316,6 +316,7 @@ width: 280px;
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
+
 }
 
 h3 {
